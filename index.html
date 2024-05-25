@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | BMW Motorrad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+</head>
+<body>
+<div class="container" id="bike">
+<nav>
+    <img src="img/logo.png" class="logo">
+    <a href="#" class="btn">Compre Aqui</a>
+</nav>
+<div class="content">  
+<h2>BMW</h2>
+<h1>G 310 R</h1>
+<p>A BMW G 310 R é a essência do prazer de pilotar uma motocicleta. Foi construída para cidades cosmopolitas e para todos aqueles que gostam simplesmente de pilotar. Caracteriza-se pela facilidade de condução e espírito esportivo.</p>
+<h3>Escolha seu estilo</h3>
+
+     <div class="colour-select">
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="black"></div>
+    </div>
+</div>
+  </div>
+  <script>
+let redBtn = document.getElementById("red");
+let blueBtn = document.getElementById("blue");
+let blackBtn = document.getElementById("black");
+let bike = document.getElementById("bike");
+
+redBtn.onclick = function(){
+bike.style.backgroundImage = "url(img/BMW1.png)";
+}
+blueBtn.onclick = function(){
+bike.style.backgroundImage = "url(img/BMW2.png)";
+}
+blackBtn.onclick = function(){
+bike.style.backgroundImage = "url(img/BMW3.png)";
+}
+  </script>
+
+
+
+
+
+</body>
+</html>
